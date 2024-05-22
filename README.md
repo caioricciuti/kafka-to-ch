@@ -23,8 +23,8 @@ This project demonstrates how to use Apache Kafka to stream IoT data into ClickH
 
 1. **Clone the Repository**:
     ```sh
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/caioricciuti/kafka-to-ch
+    cd kafka-to-ch
     ```
 
 2. **Create a Virtual Environment** (optional, but recommended):
@@ -35,7 +35,7 @@ This project demonstrates how to use Apache Kafka to stream IoT data into ClickH
 
 3. **Install Python Dependencies**:
     ```sh
-    pip install apache-beam clickhouse-driver kafka-python
+    pip install -r requirements.txt
     ```
 
 ### 2. Setting Up Docker Containers
